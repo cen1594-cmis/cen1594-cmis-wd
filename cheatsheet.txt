@@ -1,0 +1,3 @@
+ls=list
+cd=open file
+&=doesn't freeze gedit
