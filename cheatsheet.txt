@@ -1,3 +1,4 @@
 ls=list
 cd=open file
 &=doesn't freeze gedit
+git clone --config="http.proxy=http://cen1594:Bone@192.168.2.1:8080" https://github.com/cen1594-cmis/cen1594-cmis-wd.git
