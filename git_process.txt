@@ -1,0 +1,10 @@
+1.Open up terminal at the bottom left of the screen, next to the green folder.
+2.Clone your repository by inserting: git clone --config="http.proxy=http://cmisinternetusername:cmisinternetpassword@192.168.2.1:8080" https://github.com/githubusername/githubrepositoryname and making the apporpriate changes to the place holder.
+3.After cloning go into your folder by typing: cd yourfilename
+4.After being in your folder, type gedit nameofdocument&
+5.After finishing your document, don't forget to save it.
+6.Type: "add documentname" to add the document to the list of files that will go into github
+7.Type: "git commit -m "insert comment about what you did here" to commit your file and make a comment about what changes you made to your repository.
+8.Type: "git push" to finally push the file into github
+9.Type your git hub username when prompted
+10.Type your Git hub password when prompted.
