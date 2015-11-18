@@ -6,3 +6,9 @@ sftp cen1594@cmis-hsteacher
 sac/rF/DxpsW6
 pwd=present working directory
 sftp: !ls (list out content of home folder)
+sftp: cd public.html
+put: submit work
+how to recreate directory in sftp
+mkdir:make directory
+rmdir: remove directory
+
