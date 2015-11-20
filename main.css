@@ -1,5 +1,12 @@
+nav{
+	color:purple;
+	background-image: url("rolls.jpg");
+}
 body{
-background-image: url("Background.jpg");
+	background-image: url("Background.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	
 }
 h1 {
 	background-color: #d0e4fe;
@@ -37,6 +44,11 @@ p{
 	font-variant:normal;
 	color:#000FF6;
 }
+article{
+	background-image: url("SPring.jpg");
+	color:white
+}
+
 footer{
 	background-color:red;
 	border-style:dotted ridge none;
