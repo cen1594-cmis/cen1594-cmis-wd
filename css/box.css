@@ -30,6 +30,19 @@ table td {
 
 }
 table th {
-    border: 1px ridge #000;
+	border: 1px ridge #000;
 	background-color:#993366;
 }
+article > ul{
+	border: 10px solid red;
+	background-color:black;
+	
+
+
+}
+main ol{
+	color:green;
+	margin:10px;
+	border:20px silver dashed;
+}
+
