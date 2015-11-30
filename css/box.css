@@ -1,0 +1,35 @@
+main h2{
+	background-color:blue;
+	padding: 20px;
+	border: 10px dotted green;
+	width:130px;
+	height:20px;
+	
+}
+main + footer{
+	background-color:yellow;
+	padding:10px;
+	border:5px ridge orange;
+	width:320px;
+}
+nav > h3{
+	background-color:silver;
+	border:20px solid red;
+	padding:10px;
+	width:140px;
+}
+nav > ul{
+	background-color:green;
+	border:5px dashed purple;
+	width:280px;
+	height:40px;
+}
+table td {
+	border: 1px ridge #000;
+	background-color:#ffcc66;
+
+}
+table th {
+    border: 1px ridge #000;
+	background-color:#993366;
+}
