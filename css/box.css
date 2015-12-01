@@ -2,7 +2,7 @@ main h2{
 	background-color:blue;
 	padding: 20px;
 	border: 10px dotted green;
-	width:130px;
+	width:500px;
 	height:20px;
 	
 }
@@ -11,6 +11,12 @@ main + footer{
 	padding:10px;
 	border:5px ridge orange;
 	width:320px;
+}
+nav+main{
+	border:5px solid silver;
+	margin:7px;
+	padding:20px;
+	background-color:#c6ff1a;
 }
 nav > h3{
 	background-color:silver;
@@ -23,6 +29,7 @@ nav > ul{
 	border:5px dashed purple;
 	width:280px;
 	height:40px;
+	margin:40px;
 }
 table td {
 	border: 1px ridge #000;
@@ -33,16 +40,23 @@ table th {
 	border: 1px ridge #000;
 	background-color:#993366;
 }
+table{
+	background-color:silver;
+	border: 5px dotted #fff5cc;
+}
 article > ul{
 	border: 10px solid red;
-	background-color:black;
-	
-
-
+	padding:27px;
+	margin:10px;
 }
 main ol{
 	color:green;
 	margin:10px;
 	border:20px silver dashed;
 }
+nav~footer{
+	border:12px orange dashed;
+}
+
+
 
