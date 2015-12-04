@@ -37,7 +37,7 @@ table td {
 
 }
 table th {
-	border: 1px ridge #000;
+	border: 0.5px ridge #000;
 	background-color:#993366;
 }
 table{
