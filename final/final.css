@@ -1,0 +1,13 @@
+*{
+	outline: dotted green 1px;
+}
+img.red {
+float:left;
+border:red solid;
+}
+p{
+margin:right;
+}
+br.clear{
+clear:both;
+}
