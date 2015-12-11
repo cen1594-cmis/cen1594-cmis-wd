@@ -1,11 +1,11 @@
-*{
-outline:red 1px dotted;
-}
+
 img.logo{
 max-width:100%;
 max-height:100%;
+    display: block;
+    margin: 0 auto;
 }
-nav{
+nav.catalog{
 float:left;
 padding-right:15px;
 height:3075px;
@@ -32,7 +32,6 @@ img.red {
 	float:left;
 }
 p.red{
-	margin:left;
 	background-color:#BF2323;
 	color:#FB7878;
 	overflow: hidden;
@@ -52,7 +51,6 @@ h2.redlist{
 	overflow: hidden;
 }
 ul.redlist{
-	margin:left;
 	overflow: hidden;
 	background-color:#ff7272;
 	color:#740000;
@@ -80,7 +78,6 @@ img.orange {
 	float:left;
 }
 p.orange{
-	margin:left;
 	background-color:#ffb200;
 	color: #ffe099;
 	overflow: hidden;
@@ -100,7 +97,6 @@ h2.orangelist{
 	overflow: hidden;
 }
 ul.orange{
-	margin:left;
 	overflow: hidden;
 	background-color:#ffc043;
 	color:#6B4800;
@@ -124,7 +120,6 @@ img.green {
 	float:left;
 }
 p.green{
-	margin:left;
 	background-color:#005600;
 	color:#14e014;
 	overflow: hidden;
@@ -145,7 +140,6 @@ h2.greenlist{
 	overflow: hidden;
 }
 ul.green{
-	margin:left;
 	overflow: hidden;
 	background-color:#3de93d;
 	color:#005600;
@@ -168,7 +162,6 @@ img.blue {
 	float:left;
 }
 p.blue{
-	margin:left;
 	background-color:#006699;
 	color: #99ccff;
 	overflow: hidden;
@@ -188,7 +181,6 @@ h2.bluelist{
 	overflow: hidden;
 }
 ul.blue{
-	margin:left;
 	overflow: hidden;
 	background-color:#48bbff;
 	color:#006257;
@@ -211,7 +203,6 @@ img.purple {
 	float:left;
 }
 p.purple{
-	margin:left;
 	background-color:#c55c97;
 	color:#7d0047;
 	overflow: hidden;
@@ -231,8 +222,50 @@ h2.purplelist{
 	overflow: hidden;
 }
 ul.purple{
-	margin:left;
 	overflow: hidden;
 	background-color: #ff3399;
 	color:#60157f;
 }
+h3{
+color:white;
+background-color:green;
+}
+ul.nav{
+background-color:green;
+color:white;
+}
+img.store1{
+max-width:100%;
+max-height:100%;
+
+}
+img.store2{
+max-width:100%;
+max-height:100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+p.headerimage{
+text-align:center;
+}
+nav.main{
+float:left;
+padding-right:15px;
+height:305px;
+background-image:url("background.jpg");
+}
+h3{
+color:white;
+background-color:green;
+}
+ul.nav{
+background-color:green;
+color:white;
+}
+html{
+background-image:url("images/main.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+}
+
