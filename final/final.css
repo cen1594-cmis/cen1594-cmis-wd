@@ -1,13 +1,238 @@
 *{
-	outline: dotted green 1px;
+outline:red 1px dotted;
+}
+img.logo{
+max-width:100%;
+max-height:100%;
+}
+nav{
+float:left;
+padding-right:15px;
+height:3075px;
+background-image:url("background.jpg");
+}
+main{
+	overflow: hidden;
+}
+article.red{
+	background-color:#BF2323;
+	height:555px;
+}
+h2.red{
+	text-align:center;
+	color:#FF0000 ;
+	font-size:50px;
+	border:2px red solid;
+	border-left:5px ridge #660000;
+	border-bottom:5px ridge #660000;
+	padding:5px;
+	text-shadow: 5px 5px #740000;
 }
 img.red {
-float:left;
-border:red solid;
+	float:left;
 }
-p{
-margin:right;
+p.red{
+	margin:left;
+	background-color:#BF2323;
+	color:#FB7878;
+	overflow: hidden;
+	border:2px red solid;
+	border-left:5px ridge #660000;
+	border-bottom:5px ridge #660000;
+	padding:5px;
+}
+h2.redlist{
+	margin-top:50px;
+	color:#DA4747;
+	background-color:#9D0E0E;
+	border:2px red solid;
+	border-left:5px ridge #660000;
+	border-bottom:5px ridge #660000;
+	padding:5px;
+	overflow: hidden;
+}
+ul.redlist{
+	margin:left;
+	overflow: hidden;
+	background-color:#ff7272;
+	color:#740000;
 }
 br.clear{
 clear:both;
+}
+
+article.orange{
+	background-color:#f1a000;
+	height:555px;
+}
+h2.orange{
+	text-align:center;
+	color:#FFC403 ;
+	font-size:50px;
+	border:2px orange solid;
+	border-left:5px ridge  #ff8a00;
+	border-bottom:5px ridge  #ff8a00;
+	padding:5px;
+	text-shadow: 5px 5px #6B4800;
+	overflow: hidden;
+}
+img.orange {
+	float:left;
+}
+p.orange{
+	margin:left;
+	background-color:#ffb200;
+	color: #ffe099;
+	overflow: hidden;
+	border:2px orange solid;
+	border-left:5px ridge #AA7100;
+	border-bottom:5px ridge #AA7100;
+	padding:5px;
+}
+h2.orangelist{
+	margin-top:50px;
+	color:#ec8000;
+	background-color:#f0bf4e;
+	border:2px orange solid;
+	border-left:5px ridge #AA7100;
+	border-bottom:5px ridge #AA7100;
+	padding:5px;
+	overflow: hidden;
+}
+ul.orange{
+	margin:left;
+	overflow: hidden;
+	background-color:#ffc043;
+	color:#6B4800;
+	
+}
+article.green{
+	background-color:#00c100;
+	height:555px;
+}
+h2.green{
+	text-align:center;
+	color:#3DE93D ;
+	font-size:50px;
+	border:2px green solid;
+	border-left:5px ridge #008800;
+	border-bottom:5px ridge #008800;
+	padding:5px;
+	text-shadow: 5px 5px #005600;
+}
+img.green {
+	float:left;
+}
+p.green{
+	margin:left;
+	background-color:#005600;
+	color:#14e014;
+	overflow: hidden;
+	border:2px green solid;
+	border-left:5px ridge  #91f424;
+	border-bottom:5px ridge #91f424
+;
+	padding:5px;
+}
+h2.greenlist{
+	margin-top:50px;
+	color:#00c100;
+	background-color:#b8f872;
+	border:2px green solid;
+	border-left:5px ridge #008800;
+	border-bottom:5px ridge #008800;
+	padding:5px;
+	overflow: hidden;
+}
+ul.green{
+	margin:left;
+	overflow: hidden;
+	background-color:#3de93d;
+	color:#005600;
+}
+article.blue{
+	background-color:#00aaaa;
+	height:555px;
+}
+h2.blue{
+	text-align:center;
+	color:#006565 ;
+	font-size:50px;
+	border:2px blue solid;
+	border-left:5px ridge #004a4a;
+	border-bottom:5px ridge #004a4a;
+	padding:5px;
+	text-shadow: 5px 5px #0b1717;
+}
+img.blue {
+	float:left;
+}
+p.blue{
+	margin:left;
+	background-color:#006699;
+	color: #99ccff;
+	overflow: hidden;
+	border:2px blue solid;
+	border-left:5px ridge #004a4a;
+	border-bottom:5px ridge #004a4a;
+	padding:5px;
+}
+h2.bluelist{
+	margin-top:50px;
+	color: #99ccff;
+	background-color:#002966;
+	border:2px blue solid;
+	border-left:5px ridge #004a4a;
+	border-bottom:5px ridge #004a4a;
+	padding:5px;
+	overflow: hidden;
+}
+ul.blue{
+	margin:left;
+	overflow: hidden;
+	background-color:#48bbff;
+	color:#006257;
+}
+article.purple{
+	background-color:#AD0062;
+	height:555px;
+}
+h2.purple{
+	text-align:center;
+	color:#f7008c ;
+	font-size:50px;
+	border:2px purple solid;
+	border-left:5px ridge #bc5c92;
+	border-bottom:5px ridge #bc5c92;
+	padding:5px;
+	text-shadow: 5px 5px #7d0047;
+}
+img.purple {
+	float:left;
+}
+p.purple{
+	margin:left;
+	background-color:#c55c97;
+	color:#7d0047;
+	overflow: hidden;
+	border:2px purple solid;
+	border-left:5px ridge #bc5c92;
+	border-bottom:5px ridge #bc5c92;
+	padding:5px;
+}
+h2.purplelist{
+	margin-top:50px;
+	color: #ff66ff;
+	background-color:#990099;
+	border:2px purple solid;
+	border-left:5px ridge #bc5c92;
+	border-bottom:5px ridge #bc5c92;
+	padding:5px;
+	overflow: hidden;
+}
+ul.purple{
+	margin:left;
+	overflow: hidden;
+	background-color: #ff3399;
+	color:#60157f;
 }
