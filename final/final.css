@@ -1,4 +1,11 @@
-
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+h2{
+font-family:"Lobster";
+}
+ul{
+font-family:"Indie Flower";
+}
 img.logo{
 max-width:100%;
 max-height:100%;
@@ -246,14 +253,15 @@ max-height:100%;
   margin-right: auto;
 
 }
-p.headerimage{
+h1.headerimage{
 text-align:center;
 }
 nav.main{
 float:left;
 padding-right:15px;
-height:305px;
+height:600px;
 background-image:url("background.jpg");
+
 }
 h3{
 color:white;
@@ -267,5 +275,45 @@ html{
 background-image:url("images/main.jpg");
 background-repeat: no-repeat;
 background-size:cover;
+}
+h2.indexh{
+	text-align:center;
+	color: #993399 ;
+	font-size:50px;
+	border:2px purple solid;
+	border-left:5px ridge #bc5c92;
+	border-bottom:5px ridge #bc5c92;
+	padding:5px;
+	text-shadow: 5px 5px #7d0047;
+	background-color:   #ff6666;
+}
+p.pmain{
+	background-color:#c55c97;
+	color: #ff66a3;
+	overflow: hidden;
+	border:2px purple solid;
+	border-left:5px ridge #bc5c92;
+	border-bottom:5px ridge #bc5c92;
+	padding:5px;
+	font-size:30px;
+	text-align:center;
+	
+}
+p.jello{
+	text-align:center;
+}
+p.answer{
+	background-color:  #00e600;
+	color: #ccffff;
+	overflow: hidden;
+	border:2px purple solid;
+	border-left:5px ridge #bc5c92;
+	border-bottom:5px ridge #bc5c92;
+	padding:5px;
+	font-size:30px;
+	text-align:center;
+}
+footer{
+color:white;
 }
 
